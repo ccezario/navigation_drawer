@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    app:id="@+id/drawerRoot"
+    app:layout_width="match_parent"
+    app:layout_height="140dp"
+    app:background="@color/menu_bg"
+    app:gravity="center"
+    app:orientation="horizontal"
+    app:padding="15dp">
+
+    <LinearLayout
+        app:layout_width="wrap_content"
+        app:layout_height="wrap_content"
+        app:orientation="vertical"
+        app:paddingLeft="15dp">
+
+        <TextView
+            app:id="@+id/drawerUserName"
+            style="@style/txt_d7d7d7_20"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:text="@string/app_name" />
+
+        <TextView
+            app:id="@+id/drawerUserProfile"
+            style="@style/txt_4194cc"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginTop="5dp"
+            app:text="Profile" />
+    </LinearLayout>
+</LinearLayout>
